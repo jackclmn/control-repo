@@ -8,7 +8,7 @@ class profile::apache_mysql {
     'vhost5' => { port => 8000, docroot => '/var/www5'},
   }
 
-  class { 'apache-mysql-manager':
+  class { 'apache_mysql_manager':
     vhosts => $vhosts,
   }
 }
