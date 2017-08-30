@@ -1,2 +1,8 @@
 ---
 message: "This node is using common data"
+
+profile::apache::vhosts:
+  vhost1:
+    attributes:
+      port: 80
+      docroot: '/var/www'
