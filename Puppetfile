@@ -24,5 +24,5 @@ mod 'git_version_fact',
   :git    => 'https://github.com/jackclmn/git_version_fact',
   :branch => 'development'
 
-mod 'apache_mysql_manager',
+mod 'jackclmn-apache_mysql_manager',
   :git    => 'https://github.com/jackclmn/apache_mysql_manager'
