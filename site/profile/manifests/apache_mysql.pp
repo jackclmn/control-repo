@@ -10,4 +10,5 @@ class profile::apache_mysql {
   class { 'apache_mysql_manager':
     vhosts => $vhosts,
   }
+  contain apache_mysql_manager
 }
