@@ -19,5 +19,5 @@ class profile::apache_mysql {
     dbs    => $dbs,
   }
   contain apache_mysql_manager
-  #comment
+  #commentts
 }
