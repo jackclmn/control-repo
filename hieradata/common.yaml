@@ -17,3 +17,40 @@ profile::apache_mysql::vhosts:
   vhost5:
     port: 9000
     docroot: '/var/www5'
+
+profile::apache_mysql::dbs:
+  db1:
+    user: 'myuser'
+    password: 'password'
+    host: 'localhost'
+    grant:
+      - 'SELECT'
+      - 'UPDATE'
+  db2:
+    user: 'myuser'
+    password: 'password'
+    host: 'localhost'
+    grant:
+      - 'SELECT'
+      - 'UPDATE'
+  db3:
+    user: 'myuser'
+    password: 'password'
+    host: 'localhost'
+    grant:
+      - 'SELECT'
+      - 'UPDATE'
+  db4:
+    user: 'myuser'
+    password: 'password'
+    host: 'localhost'
+    grant:
+      - 'SELECT'
+      - 'UPDATE'
+  db5:
+    user: 'myuser'
+    password: 'password'
+    host: 'localhost'
+    grant:
+      - 'SELECT'
+      - 'UPDATE'
