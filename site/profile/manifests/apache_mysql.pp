@@ -4,7 +4,7 @@ class profile::apache_mysql {
   #  message => hiera('message')
   #}
   $vhosts = {
-    vhost1 => { port => 80, docroot => /var/www1 }
+    vhost1 => { port => 80, docroot => '/var/www1' }
   }
   $dbs = {}
 
