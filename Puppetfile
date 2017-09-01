@@ -19,3 +19,11 @@ mod 'puppetlabs-stdlib', '4.1.0'
 mod 'puppetlabs-concat', '1.1.0'
 mod 'puppetlabs-apache'
 mod 'puppetlabs-mysql'
+
+mod 'git_version_fact',
+  :git    => 'https://github.com/jackclmn/git_version_fact',
+  :branch => 'development'
+
+mod 'apache_mysql_manager',
+  :git    => 'https://github.com/jackclmn/apache_mysql_manager',
+  :branch => 'master'
