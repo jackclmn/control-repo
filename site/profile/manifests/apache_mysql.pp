@@ -1,8 +1,8 @@
 # class profile::apache_mysql
 class profile::apache_mysql {
-  notify { 'hello':
-    message => hiera('message')
-  }
+  #notify { 'hello':
+  #  message => hiera('message')
+  #}
   $vhosts = {
     vhost1 => { port => 80, docroot => '/var/www1' }
   }
