@@ -4,4 +4,4 @@
 :yaml:
   :datadir: "/etc/puppetlabs/code/environments/development/hieradata"
 :hierarchy:
-  - "common"
+  - common
