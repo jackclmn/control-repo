@@ -26,3 +26,5 @@ mod 'puppetlabs-pwshlib', '0.10.2'
 mod 'puppetlabs-reboot', '4.3.0'
 mod 'puppetlabs-hocon', '1.1.0'
 mod 'puppetlabs-cd4pe_jobs', '1.6.0'
+mod 'puppetlabs-apache', '8.4.0'
+
